@@ -1,0 +1,101 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  body {
+    margin-bottom: 50px; /* Margin bottom by footer height */
+    background-image: url("../images/subtle_white_feathers.png");
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+  }
+
+.bg-light {
+  background-color: #ffffff !important;
+}
+
+h1 {
+  background-color: #4aaaa5 !important;
+  height: 100%;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bolder;
+  margin: 0px;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #4aaaa5;
+  margin: 10px;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Georgia', Times, 'Times New Roman', serif !important;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+.copr-notice {
+  margin: 20px 0px 0px 0px !important;
+}
+
+
+/* FIX Nav-Collapse */
+
+@media screen and (Min-Width: 768px) {
+
+  nav {
+    background-color: #fff !important;
+    border-bottom: 6px solid #cccccc !important;
+  }
+  
+  .nav-link {
+    padding: 0px 15px !important;
+  }
+  
+  nav a {
+      padding: 0px 15px;
+      text-decoration: none;
+      line-height: 100%;
+  }
+  
+  nav a:link {
+      color: #777777;
+  }
+  
+  nav a:hover, a:hover:visited {
+      color: #4aaaa5 !important;
+  }
+  
+  nav a:visited {
+      color: #777777;
+  }
+  
+  nav a:first-child {
+      border-left: 0px none;
+      padding-left: 0px !important;
+  }
+  
+  nav a:nth-child(even) {
+      border-left: 1px solid #777777 !important;
+      border-right: 1px solid #777777 !important;
+  }
+  
+  nav a:last-child {
+      border-right: none;
+      padding-right: 0px !important;
+  }
+
+}
