@@ -11,14 +11,11 @@ html {
     color: #777777;
   }
 
-.bg-light {
-  background-color: #ffffff !important;
-}
-
 h1 {
   background-color: #4aaaa5 !important;
-  height: 100%;
-  padding: 10px 20px;
+  height: 75px;
+  line-height: 75px;
+  padding: 0px 25px;
   color: white;
   font-weight: bolder;
   margin: 0px;
@@ -76,9 +73,16 @@ footer {
   color: #ffffff;
 }
 
+/* FIX Override container max width on lg screens */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
 /* FIX Nav-Collapse */
 
-@media screen and (Min-Width: 768px) {
+@media screen and (min-width: 768px) {
 
   nav {
     background-color: #fff !important;
